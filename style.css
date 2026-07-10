@@ -1,1 +1,178 @@
-body {}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Vazirmatn',sans-serif;
+}
+
+body{
+background:#0f0f10;
+color:#fff;
+overflow-x:hidden;
+}
+
+.hero{
+min-height:100vh;
+background:linear-gradient(135deg,#0f0f10,#1a1a1d,#242428);
+display:flex;
+align-items:center;
+justify-content:center;
+padding:30px;
+}
+
+.overlay{
+width:100%;
+max-width:1400px;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:80px;
+}
+
+.logo{
+font-size:34px;
+font-weight:800;
+color:#ff7a00;
+}
+
+.menu{
+display:flex;
+gap:35px;
+list-style:none;
+}
+
+.menu li{
+cursor:pointer;
+transition:.3s;
+}
+
+.menu li:hover{
+color:#ff7a00;
+}
+
+.hero-content{
+text-align:center;
+}
+
+.hero-content h1{
+font-size:48px;
+line-height:1.6;
+margin-bottom:20px;
+}
+
+.hero-content p{
+font-size:20px;
+color:#bdbdbd;
+margin-bottom:40px;
+}
+
+.search-box{
+background:#1d1d1f;
+padding:10px;
+border-radius:18px;
+display:flex;
+gap:10px;
+max-width:750px;
+margin:auto;
+box-shadow:0 10px 35px rgba(255,122,0,.18);
+}
+
+.search-box input{
+flex:1;
+background:none;
+border:none;
+outline:none;
+color:#fff;
+font-size:18px;
+padding:16px;
+}
+
+.search-box button{
+background:#ff7a00;
+border:none;
+padding:16px 28px;
+border-radius:14px;
+color:#fff;
+font-size:17px;
+font-weight:bold;
+cursor:pointer;
+transition:.3s;
+}
+
+.search-box button:hover{
+background:#ff9500;
+transform:scale(1.05);
+}
+
+.products{
+padding:80px 25px;
+}
+
+.products h2{
+font-size:34px;
+margin-bottom:35px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.card{
+background:#1b1b1d;
+border-radius:20px;
+padding:25px;
+transition:.35s;
+border:1px solid rgba(255,122,0,.15);
+}
+
+.card:hover{
+transform:translateY(-8px);
+border-color:#ff7a00;
+box-shadow:0 20px 45px rgba(255,122,0,.18);
+}
+
+.card h3{
+font-size:24px;
+margin-bottom:15px;
+color:#ff7a00;
+}
+
+.card p{
+margin-bottom:20px;
+color:#cfcfcf;
+}
+
+.card span{
+font-weight:bold;
+}
+
+.bottom-nav{
+position:fixed;
+bottom:20px;
+left:50%;
+transform:translateX(-50%);
+width:92%;
+max-width:520px;
+background:#181818;
+display:flex;
+justify-content:space-around;
+padding:15px;
+border-radius:22px;
+box-shadow:0 15px 45px rgba(0,0,0,.45);
+}
+
+.bottom-nav div{
+text-align:center;
+cursor:pointer;
+transition:.3s;
+}
+
+.bottom-nav div:hover{
+color:#ff7a00;
+transform:translateY(-4px);
+}
