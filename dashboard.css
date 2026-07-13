@@ -1,1 +1,106 @@
+/* ===========================
+   Dashboard - Foolad Market
+=========================== */
 
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Vazirmatn',sans-serif;
+}
+
+body{
+
+background:#f3f4f6;
+
+direction:rtl;
+
+color:#222;
+
+}
+
+.dashboard-header{
+
+background:#111827;
+
+border-bottom:3px solid #ff7a00;
+
+padding:20px 40px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+}
+
+.dashboard-logo a{
+
+color:white;
+
+text-decoration:none;
+
+font-size:18px;
+
+font-weight:700;
+
+transition:.3s;
+
+}
+
+.dashboard-logo a:hover{
+
+color:#ff7a00;
+
+}
+
+.dashboard-container{
+
+width:92%;
+
+max-width:1400px;
+
+margin:40px auto;
+
+}
+
+.welcome-card{
+
+background:white;
+
+padding:35px;
+
+border-radius:18px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+margin-bottom:35px;
+
+}
+
+.welcome-card h1{
+
+font-size:34px;
+
+margin-bottom:10px;
+
+}
+
+.welcome-card p{
+
+font-size:17px;
+
+color:#666;
+
+}
+
+.dashboard-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:25px;
+
+}
