@@ -18,7 +18,111 @@ direction:rtl;
 color:#222;
 
 }
+.dashboard-card{
 
+background:#ffffff;
+
+border-radius:18px;
+
+padding:30px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+transition:.35s;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:space-between;
+
+min-height:220px;
+
+border:2px solid transparent;
+
+}
+
+.dashboard-card:hover{
+
+transform:translateY(-8px);
+
+border-color:#ff7a00;
+
+box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+}
+
+.dashboard-card h2{
+
+font-size:24px;
+
+margin-bottom:15px;
+
+color:#111827;
+
+}
+
+.dashboard-card p{
+
+font-size:15px;
+
+line-height:28px;
+
+color:#6b7280;
+
+margin-bottom:25px;
+
+}
+
+.dashboard-card button{
+
+background:#ff7a00;
+
+color:white;
+
+border:none;
+
+padding:14px;
+
+border-radius:12px;
+
+font-size:16px;
+
+font-weight:700;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.dashboard-card button:hover{
+
+background:#e56d00;
+
+}
+
+@media(max-width:768px){
+
+.dashboard-header{
+
+padding:20px;
+
+}
+
+.welcome-card h1{
+
+font-size:26px;
+
+}
+
+.dashboard-card{
+
+padding:25px;
+
+}
+
+}
 .dashboard-header{
 
 background:#111827;
