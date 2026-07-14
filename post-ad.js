@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     nextButton.addEventListener("click", function () {
 
-        alert("مرحله دوم با موفقیت تکمیل شد ✅\n\nمرحله سوم (آپلود تصاویر) به زودی نمایش داده می‌شود.");
+        document.getElementById("step1").style.display = "none";
+        document.getElementById("step2").style.display = "block";
 
     });
 
